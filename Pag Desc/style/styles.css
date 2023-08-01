@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body{
+  background: url(/Img/Descto.jpg) ;
+  margin: auto;
+}
+
+nav{
+  max-width: 1400px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+  background-color: turquoise;
+}
+
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+}
+
+.menu-vertical li:hover{
+  background-color: black;
+}
+
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+}
+
+.main-content {
+  background-color: none;
+  padding: 20px;
+}
+
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter {
+  margin-right: 20px;
+}
+
+.filter select {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
